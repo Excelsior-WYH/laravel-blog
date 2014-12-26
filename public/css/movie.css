@@ -1,0 +1,34 @@
+ #h_nav{
+    opacity: 0.8;
+}
+
+#detail{
+	width: 140px;
+	display: none;
+	border: 1px solid black;
+	border-radius: 5px;
+	opacity: 0.5;
+	font-weight: bold;
+}
+#detail:hover{
+	opacity: 1.0;
+	font-weight: bold;
+	cursor: pointer;
+}
+#detail p{
+	margin: 5px 0 0 5px;
+}
+#detail div{
+	padding-left: 2px;
+	text-indent: 2em;
+	word-break:break-all
+}
+#detail .arrow{
+	position: absolute;
+	left: -8px;
+	top: 50px;
+	height: 0;
+	border-color: transparent red transparent transparent;
+	border-width: 8px 8px 8px 0;
+	border-style: dashed solid dashed dashed;
+}
