@@ -109,6 +109,10 @@
 			}
 		}
 
+		protected function test(){
+			echo "git";
+		}
+
 
 
 
